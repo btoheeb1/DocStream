@@ -1,0 +1,8 @@
+.env
+vector_db/
+chapters_vector_db/
+extracted_images/
+image_captions.json
+evaluation_results/
+uploads/
+docstream_env/

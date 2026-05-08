@@ -1,0 +1,41 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# StudyPal — .gitignore
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Environment variables — NEVER commit API keys
+.env
+
+# Python virtual environments
+studypal_env/
+venv/
+env/
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Generated data — too large for version control
+vector_db/
+chapters_vector_db/
+extracted_images/
+image_captions.json
+evaluation_results/
+uploads/
+
+# macOS system files
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/

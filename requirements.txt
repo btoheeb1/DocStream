@@ -1,0 +1,46 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# DocStream — Python Dependencies
+# ─────────────────────────────────────────────────────────────────────────────
+# Install with: pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Web UI ────────────────────────────────────────────────────────────────────
+streamlit==1.49.1
+
+# ── Environment Management ────────────────────────────────────────────────────
+python-dotenv==1.1.1
+
+# ── LangChain Core ────────────────────────────────────────────────────────────
+langchain-community==0.3.29
+langchain-huggingface==0.3.1
+langchain-chroma==0.2.5
+langchain-text-splitters==0.3.11
+langchain-groq==0.3.7
+
+# ── Vector Store ──────────────────────────────────────────────────────────────
+chromadb==1.0.9
+
+# ── Embeddings ────────────────────────────────────────────────────────────────
+transformers==4.56.0
+sentence-transformers==5.1.0
+
+# ── PDF Processing ────────────────────────────────────────────────────────────
+unstructured==0.18.14
+unstructured[pdf]==0.18.14
+nltk==3.9.1
+
+# ── Image Extraction & Captioning ────────────────────────────────────────────
+pymupdf==1.25.5
+Pillow
+numpy
+openai==1.82.0
+
+# ── YouTube Search ────────────────────────────────────────────────────────────
+youtube-search-python==1.6.6
+
+# ── HTTP Client ───────────────────────────────────────────────────────────────
+httpx==0.27.0
+
+# ── Evaluation (optional — only needed to run evaluation scripts) ─────────────
+ragas
+datasets
